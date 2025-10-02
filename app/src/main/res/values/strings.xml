@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">GPA Calculator</string>
+    <string name="add_student">Add Student</string>
+    <string name="edit_student">Edit Student</string>
+    <string name="delete_student">Delete Student</string>
+    <string name="add_course">Add Course</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="delete_course">Delete Course</string>
+    <string name="student_name">Student Name</string>
+    <string name="index_number">Index Number</string>
+    <string name="course_name">Course Name</string>
+    <string name="grade">Grade</string>
+    <string name="credits">Credits</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="cumulative_gpa">Cumulative GPA</string>
+    <string name="semester_gpa">Semester GPA</string>
+    <string name="export_excel">Export to Excel</string>
+    <string name="import_excel">Import from Excel</string>
 </resources>
