@@ -16,4 +16,6 @@
     <string name="semester_gpa">Semester GPA</string>
     <string name="export_excel">Export to Excel</string>
     <string name="import_excel">Import from Excel</string>
+    <string name="students">Students</string>
+    <string name="todo">TODO</string>
 </resources>

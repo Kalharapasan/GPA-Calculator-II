@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:text="Grade: A"
                     android:textSize="14sp"
-                    android:textColor="#64748B"/>
+                    android:textColor="#D0D7EF"/>
 
                 <TextView
                     android:id="@+id/tvCredits"

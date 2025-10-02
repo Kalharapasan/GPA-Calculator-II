@@ -11,9 +11,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#EFE6E6"
+        android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:padding="16dp"
-        android:gravity="center_vertical">
+        android:padding="16dp">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -26,38 +27,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Student Name"
+                android:textColor="#1E293B"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:textColor="#1E293B"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvIndexNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
                 android:text="Index: 12345"
-                android:textSize="14sp"
                 android:textColor="#64748B"
-                android:layout_marginTop="4dp"/>
+                android:textSize="14sp" />
         </LinearLayout>
 
         <ImageButton
             android:id="@+id/btnEdit"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@android:drawable/ic_menu_edit"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:tint="@color/primary"
-            android:contentDescription="Edit"/>
+            android:contentDescription="Edit"
+            android:src="@android:drawable/ic_menu_edit"
+            android:tint="@color/background" />
 
         <ImageButton
             android:id="@+id/btnDelete"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@android:drawable/ic_menu_delete"
+            android:layout_marginStart="8dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:tint="#DC2626"
             android:contentDescription="Delete"
-            android:layout_marginStart="8dp"/>
+            android:src="@android:drawable/ic_menu_delete"
+            android:tint="#DC2626" />
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
