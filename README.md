@@ -47,7 +47,8 @@ Users can input subjects, credit hours, and grades, and the app instantly calcul
 ---
 
 ## 🖼 Screenshots
-You can include screenshots of your app UI in a `screenshots` folder and link them here:
+
+<img width="1366" height="739" alt="Capture" src="https://github.com/user-attachments/assets/40f60e6a-6a2b-49d0-af7a-b04658948626" />
 
 
 
