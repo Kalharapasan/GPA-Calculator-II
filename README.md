@@ -1,48 +1,86 @@
+
 # GPA Calculator (Android App)
 
-A simple Android application for calculating GPA (Grade Point Average) based on courses, credits, and grades.
+## 📱 Overview
+**GPA Calculator** is an Android application that allows students to easily calculate their Grade Point Average (GPA).  
+Users can input subjects, credit hours, and grades, and the app instantly calculates the overall GPA.
 
-## Features
-- Add subjects with credits and grades
-- Automatically calculate GPA
-- Simple and clean user interface
-- Lightweight and fast
+---
 
-## Tech Stack
-- **Language**: Java / Kotlin (depending on your implementation)
-- **Framework**: Android SDK
-- **IDE**: Android Studio
+## ✨ Features
+- Add subjects with credits and grades  
+- Automatically calculate weighted GPA  
+- Beautiful and modern user interface  
+- Save and view previous results (if available)  
+- Built using **Android Studio (Java/Kotlin)**  
 
-## Installation
+---
+
+## 🛠️ Tech Stack
+- **Language:** Java / Kotlin  
+- **IDE:** Android Studio  
+- **UI Design:** XML  
+- **Minimum SDK:** 21+  
+
+---
+
+## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/gpa-calculator.git
+   git clone https://github.com/Kalharapasan/GPA-Calculator-II.git
    ```
-2. Open the project in **Android Studio**.
-3. Let Gradle sync automatically.
-4. Run the app on:
-   - An Android emulator, or  
-   - A physical device (USB debugging enabled)
+2. Open the project in **Android Studio**
+3. Let **Gradle** sync all dependencies
+4. Click **Run ▶️** to launch the app on an **emulator** or **physical device**
 
-## Usage
-1. Launch the app on your Android device.
-2. Enter subject name, grade, and credit hours.
-3. Tap **Calculate GPA**.
-4. The app will display your GPA instantly.
+---
 
-## Example
-- Subject A: 3 credits, Grade A (4.0)  
-- Subject B: 4 credits, Grade B+ (3.3)  
-**GPA** = (3×4.0 + 4×3.3) ÷ (3+4) = **3.59**
+## 🧮 Example Usage
+| Subject      | Credits | Grade | GPA Points |
+|---------------|----------|--------|-------------|
+| Mathematics   | 3        | A      | 4.0         |
+| Physics       | 4        | B+     | 3.3         |
+| Chemistry     | 2        | A-     | 3.7         |
 
-## Contributing
-- Fork the repo  
-- Create a new branch (`feature/your-feature`)  
-- Commit your changes and push  
-- Submit a pull request  
+**Calculated GPA:** 3.61
 
-## License
-This project currently has no license. You may add one (MIT, Apache, etc.).
+---
 
-## Contact
-You are free to push this project to GitHub and modify the README as needed.
+## 🖼 Screenshots
+You can include screenshots of your app UI in a `screenshots` folder and link them here:
+
+
+
+---
+
+## 📂 Project Structure
+```
+GPA Calculator/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/... (source code)
+│   │   │   ├── res/...  (layouts, drawables, etc.)
+│   │   │   └── AndroidManifest.xml
+│   └── build.gradle
+├── gradle/
+└── settings.gradle
+```
+
+---
+
+## 🤝 Contributing
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+This project is licensed under the [License](./LICENSE.md) 
+You can freely modify and distribute it.
+
+---
+
+### 🗒 Final Note
+Feel free to customize this README for your own project —  
+add your name, app logo, screenshots, or additional information before uploading to GitHub.
