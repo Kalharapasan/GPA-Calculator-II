@@ -54,6 +54,12 @@ Users can input subjects, credit hours, and grades, and the app instantly calcul
 
 ---
 
+### 🚀 Download the App
+
+📦 **Download APK:** [👉 Click here to download (Add your APK link here)](https://drive.google.com/file/d/1wSCXusY4zZcGXAgDmaBfpJ9s0TPokkWD/view?usp=drive_link)
+
+---
+
 ## 📂 Project Structure
 ```
 GPA Calculator/
